@@ -17,3 +17,13 @@ C:\Users\daniel\Downloads\productos\productos\obj\Debug\productos.csproj.Generat
 C:\Users\daniel\Downloads\productos\productos\obj\Debug\productos.csproj.CoreCompileInputs.cache
 C:\Users\daniel\Downloads\productos\productos\obj\Debug\productos.exe
 C:\Users\daniel\Downloads\productos\productos\obj\Debug\productos.pdb
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\bin\Debug\productos.exe.config
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\bin\Debug\productos.exe
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\bin\Debug\productos.pdb
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.csproj.AssemblyReference.cache
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.Properties.Resources.resources
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.csproj.GenerateResource.cache
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.csproj.CoreCompileInputs.cache
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.exe
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.pdb
+C:\Users\daniel\OneDrive\Documentos\VisualStudioCode_Projects\ProyectoU\GDI\Crud Basico USP-@\productos\productos\obj\Debug\productos.frm1.resources
