@@ -36,7 +36,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.cliente = new System.Windows.Forms.TextBox();
-            this.idempleado = new System.Windows.Forms.TextBox();
             this.idpublicacion = new System.Windows.Forms.TextBox();
             this.cantidad1 = new System.Windows.Forms.Label();
             this.cantidad = new System.Windows.Forms.TextBox();
@@ -47,6 +46,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.cboEmpleados = new System.Windows.Forms.ComboBox();
+            this.txtarea = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.primaryGrid)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -118,15 +119,6 @@
             this.cliente.Size = new System.Drawing.Size(335, 28);
             this.cliente.TabIndex = 7;
             this.cliente.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // idempleado
-            // 
-            this.idempleado.Font = new System.Drawing.Font("Yu Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idempleado.Location = new System.Drawing.Point(944, 157);
-            this.idempleado.Name = "idempleado";
-            this.idempleado.Size = new System.Drawing.Size(335, 28);
-            this.idempleado.TabIndex = 9;
-            this.idempleado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // idpublicacion
             // 
@@ -249,12 +241,40 @@
             this.label3.Text = "REGISTRAR VENTA \"BOOK STORE\"";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // cboEmpleados
+            // 
+            this.cboEmpleados.FormattingEnabled = true;
+            this.cboEmpleados.IntegralHeight = false;
+            this.cboEmpleados.ItemHeight = 13;
+            this.cboEmpleados.Items.AddRange(new object[] {
+            "1 - AGUERO RAMOS",
+            "2 - SANCHEZ ROMERO",
+            "3 - LUNG WON",
+            "4 - CASTILLO RAMOS",
+            "5 - MILICICH FLORES",
+            "6 -DELGADO BARRERA",
+            "7 -GARCIA SOLIS"});
+            this.cboEmpleados.Location = new System.Drawing.Point(944, 171);
+            this.cboEmpleados.Name = "cboEmpleados";
+            this.cboEmpleados.Size = new System.Drawing.Size(330, 21);
+            this.cboEmpleados.TabIndex = 27;
+            // 
+            // txtarea
+            // 
+            this.txtarea.Location = new System.Drawing.Point(949, 552);
+            this.txtarea.Multiline = true;
+            this.txtarea.Name = "txtarea";
+            this.txtarea.Size = new System.Drawing.Size(330, 46);
+            this.txtarea.TabIndex = 28;
+            // 
             // frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1301, 642);
+            this.Controls.Add(this.txtarea);
+            this.Controls.Add(this.cboEmpleados);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label2);
@@ -265,7 +285,6 @@
             this.Controls.Add(this.cantidad);
             this.Controls.Add(this.cantidad1);
             this.Controls.Add(this.idpublicacion);
-            this.Controls.Add(this.idempleado);
             this.Controls.Add(this.cliente);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
@@ -286,7 +305,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox cliente;
-        private System.Windows.Forms.TextBox idempleado;
         private System.Windows.Forms.TextBox idpublicacion;
         private System.Windows.Forms.Label cantidad1;
         private System.Windows.Forms.TextBox cantidad;
@@ -297,6 +315,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox cboEmpleados;
+        private System.Windows.Forms.TextBox txtarea;
     }
 }
 

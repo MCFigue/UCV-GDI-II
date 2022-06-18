@@ -29,7 +29,14 @@ namespace productos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idempleadoc = Convert.ToInt32(idempleado.Text);
+            //string emple = (string)cboEmpleados.SelectedItem;
+            //int idempleadow = Convert.ToInt32(emple);
+
+            int b = cboEmpleados.SelectedIndex;
+            int idempleadoc = b + 1;
+
+            
+            //int idempleadoc = Convert.ToInt32(idempleado.Text);
             //double money = Convert.ToDouble(preciode.Text);
             int cant = Convert.ToInt32(cantidad.Text);
             double descuento = Convert.ToDouble(dcto.Text);
@@ -50,6 +57,9 @@ namespace productos
             //cmd.Parameters.AddWithValue("@IMPUESTO", 0);
             cmd.Parameters.AddWithValue("@CODIGO", 0);
             cmd.Parameters.AddWithValue("@MENSAJE", "0");
+
+            txtarea.Text = "La venta se registro exitosamente \n";
+
             try
             {
                 cmd.ExecuteNonQuery();
